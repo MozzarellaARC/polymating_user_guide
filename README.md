@@ -1,4 +1,4 @@
-# ***PolymatingUserGuide for 1.0***
+# ***Polymating User Guide for 1.0***
 ### _A page for user instructions and manuals_
 
 Hello, MozzarellaARC here, we have finally come to the release of version 1.0.
