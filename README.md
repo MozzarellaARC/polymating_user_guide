@@ -76,5 +76,5 @@ _Have fun with the addon :D_
 Goodbye [Sharky](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a5323ba8a8beed19) !!!
 
 - - -
-Version 1.0 was extensively used for my other project, "Arctic Trailblazer".
-[Arctic Trailblazer](https://www.artstation.com/artwork/0lod8y)
+Version 1.0 was extensively used for my other project, 
+["Arctic Trailblazer"](https://www.artstation.com/artwork/0lod8y)
