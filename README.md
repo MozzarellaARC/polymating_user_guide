@@ -1,8 +1,8 @@
-# ***PolymatingUserGuide for 0.5x***
+# ***PolymatingUserGuide for 1.0***
 ### _A page for user instructions and manuals_
 
-Hello, MozzarellaARC here wants to give you a quick user guide for you to use Polymating.
-For this version of Polymating, The retopology reference we're gonna use is [Plushie Shark made by QuazrSCI](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a5323ba8a8beed19) please say hello to Sharky!
+Hello, MozzarellaARC here, we have finally come to the release of version 1.0.
+For this version of Polymating, same as before Sharky will help us guide version 1.0 [Plushie Shark made by QuazrSCI](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a5323ba8a8beed19) please say hello to Sharky!
 
 ![sharky_150](https://github.com/MozzarellaARC/PolymatingUserGuide/assets/62471068/fedbbfec-c271-455d-8359-29782af96406)
 
