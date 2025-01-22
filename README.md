@@ -76,5 +76,5 @@ _Have fun with the addon :D_
 Goodbye [Sharky](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a5323ba8a8beed19) !!!
 
 - - -
-This addon is being used extensively for my other project The Rhine, which is a free model
-https://sketchfab.com/mozzarellaARC/models
+Version 1.0 was extensively used for my other project, "Arctic Trailblazer".
+[https://sketchfab.com/mozzarellaARC/models](https://www.artstation.com/artwork/0lod8y)
