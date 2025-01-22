@@ -77,4 +77,4 @@ Goodbye [Sharky](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a
 
 - - -
 Version 1.0 was extensively used for my other project, "Arctic Trailblazer".
-[https://sketchfab.com/mozzarellaARC/models](https://www.artstation.com/artwork/0lod8y)
+[Arctic Trailblazer](https://www.artstation.com/artwork/0lod8y)
