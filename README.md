@@ -2,9 +2,9 @@
 ### _A page for user instructions and manuals_
 
 Hello, MozzarellaARC here, we have finally come to the release of version 1.0.
-For this version of Polymating, same as before Sharky will help us guide version 1.0 [Plushie Shark made by QuazrSCI](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a5323ba8a8beed19) please say hello to Sharky!
+For this version of Polymating, Johhny Boy will help us guide in version 1.0 [Alaskan Malamute - Johnny Boy](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204) please say hello to Johhny!
 
-![sharky_150](https://github.com/MozzarellaARC/PolymatingUserGuide/assets/62471068/fedbbfec-c271-455d-8359-29782af96406)
+![1 0_Guide_Johnny_256](https://github.com/user-attachments/assets/c3fb3c70-3c2e-4c3a-b97a-d9af572b3bb0)
 
 Let's get started!!!
 
@@ -18,7 +18,7 @@ The typical workflow when you use Polymating is set up your reference mesh, crea
 
 # _Installation and Settings UI_
 
-Before we continue, I'm gonna introduce you to the ui of Polymating. The installation of Polymating will be pretty straight forward, after you download Polymating you can go to Edit > Preferences > Install > select the Polymating zip. file you have downloaded > Press the install add-on button > and turn on the check button, now that you've installed Polymating 0.5x you will be shown the preferences ui like this :
+Before we continue, I'm gonna introduce you to the ui of Polymating. The installation of Polymating will be pretty straight forward, after you download Polymating you can go to Edit > Preferences > Install > select the Polymating zip. file you have downloaded > Press the install add-on button > and turn on the check button, now that you've installed Polymating 1.0 you will be shown the preferences ui like this :
 
 ![UI_3](https://github.com/MozzarellaARC/PolymatingUserGuide/assets/62471068/c2952aad-2def-4871-a4a2-cb4d786af984)
 
@@ -73,8 +73,9 @@ https://github.com/MozzarellaARC/PolymatingUserGuide/assets/62471068/c10ebe0f-d7
 But remember it was suppose to work with most of the Blender proprietary / primitive tool, so you could experiment with the other tool not mentioned on the guide. This guide just show which tool is mostly used by me.
 _Have fun with the addon :D_
 
-Goodbye [Sharky](https://sketchfab.com/3d-models/plushie-shark-875414d5e45c42f9a5323ba8a8beed19) !!!
+Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
 
 - - -
 Version 1.0 was extensively used for my other project, 
 ["Arctic Trailblazer"](https://www.artstation.com/artwork/0lod8y)
+["Alaskan Malamute - Johnny Boy](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
