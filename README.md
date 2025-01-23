@@ -78,4 +78,4 @@ Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051db
 - - -
 Version 1.0 was extensively used for my other project, 
 ["Arctic Trailblazer"](https://www.artstation.com/artwork/0lod8y)
-["Alaskan Malamute - Johnny Boy](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
+["Alaskan Malamute - Johnny Boy"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
