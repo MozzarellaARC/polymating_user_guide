@@ -6,7 +6,9 @@ For this version of Polymating, Johhny Boy will help us guide in version 1.0 [Al
 
 ![1 0_Guide_Johnny_256](https://github.com/user-attachments/assets/c3fb3c70-3c2e-4c3a-b97a-d9af572b3bb0)
 
-Before we start, I want to give explanation of what is Polymating, it is a Blender retopology addon, that uses a system of that similar to Blender Shrinkwrap modifier, but instead of a non-destructive way of retopology, Polymating updates all vertices transformation in realtime, Why? it is originaly made to tackle a single problem which is user event mismatch, and as it grows Polymating try to tackle another problem which is integrations. As you can see Blender currently have 3 main modelling mode; object-mode, edit-mode and sculpt-mode and there is an abundance of tools that artists can use not to mention the amount of other modelling addon that the artists have. Polymating can integrates to most of those tools because at the core of Retopology pipeline is the projection of vertices and edge flow, Polymating focus on that.
+Before we start, I want to explain what Polymating is. It is a Blender retopology addon that uses a system similar to Blender's Shrinkwrap modifier. However, instead of a non-destructive retopology approach, Polymating updates all vertex transformations in real-time. Why? It was originally created to tackle a single problem: user event mismatch. As it evolved, Polymating began addressing another issue: integration.
+
+As you know, Blender currently has three main modeling modes: Object Mode, Edit Mode, and Sculpt Mode. There is also an abundance of tools artists can use, not to mention the number of other modeling addons available. Polymating integrates with most of these tools because, at the core of the retopology pipeline, lies the projection of vertices and edge flow. This is where Polymating focuses its development.
 
 Let's get started!!!
 
