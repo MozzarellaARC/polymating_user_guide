@@ -23,9 +23,23 @@ Now let's take a closer look;
 3. ***On-hit*** this is the bread and butter of Polymating 1.0 there is no actual projection but instead its only behavior is preventing the vertices to penetrates through the reference surface
 4. ***Multi-hit*** similar to On-hit, but it uses all the object in a collection as reference, there is no handler to limit the amount of object in the collection so please be careful when using this, as it iterates through all your object in a collection, until multi-threading is implemented there is nothing I can do to fix this performance problem
 
-Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
 
+Version 1.0 ![ui_guide1](https://github.com/user-attachments/assets/77cd69cf-9f29-4dd5-8f92-fc3a097ca8e3)
+UI map:
+1. Apply overlay on start - When you press "Start Polymating" (11) it will automatically apply a material that is optimized for retopology and then turn on backface culling
+2. Clamp brush strength - When you press "Start Polymating" (11) it will automatically limit some of your brush strength to 0.5 in order to tone down the sensivity that would result a very jumpy wrapping at higher strength
+3. Color preferences - This is would be the default material color when you applying material either through "Apply overlay on start" mechanism (1) or "Apply Overlay" (13)
+4. Reset Color - This will reset the "Color preferences" (3) at its default value of RGBA 0.800, 0.708, 0.323, 0.777
+5. Experimenta Features - This is a collapsible menu to show or hide Experimental features
+
+
+![ui_guide2](https://github.com/user-attachments/assets/449779d1-d295-4c0d-a7fb-54ada619af06)
+
+
+
+Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
 - - -
-Version 1.0 was extensively used for my other project, 
+
+was extensively used for my other project, 
 ["Arctic Trailblazer"](https://www.artstation.com/artwork/0lod8y)
 ["Alaskan Malamute - Johnny Boy"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
