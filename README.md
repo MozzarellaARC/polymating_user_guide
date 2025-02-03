@@ -31,7 +31,17 @@ UI map:
 3. Color preferences - This is would be the default material color when you applying material either through "Apply overlay on start" mechanism (1) or "Apply Overlay" (13)
 4. Reset Color - This will reset the "Color preferences" (3) at its default value of RGBA 0.800, 0.708, 0.323, 0.777
 5. Experimenta Features - This is a collapsible menu to show or hide Experimental features
-
+6. Use Raycast - This is solver specific preferences toggle for On-Hit and Multi-hit solver (10) that switch between the default find_nearest into ray_cast blender module, it is targeted to solve performance problem where user need more realtime interaction within edit-mode
+7. Developer Extras - This is for me don't touch >.<
+8. Reference - Use this object picker to select which reference you are going to project your vertices
+9. Reference Visibility - After reference (8) is set you can use this to toggle hide or show your reference (8)
+10. Solver - this is a drop down menu on which you can select your projection solver, currently contains Force Project, On-hit limit, On-hit and Multi-hit
+11. Start Polymating - this is a toggle button, the main button to operate Polymating. It will show Start Polymating or Stop Polymating to tell you the state of the button
+12. Info message - this is a message to show the state of Polymating, it roughly tells you what you need to do to operate Polymating
+13. Apply Overlay - this button lets you apply an optimized material for retopology to your selected object
+14. Remove Overlay- this button will remove all applied material created from Apply Overlay (13) or Apply overlay on start (1)
+15. Overlay visibility - After overlay material is applied you can use this to toggle hide or show your object with overlay material
+16. 
 
 ![ui_guide2](https://github.com/user-attachments/assets/449779d1-d295-4c0d-a7fb-54ada619af06)
 
