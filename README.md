@@ -15,7 +15,7 @@ Let's get started!!!
 
 In Polymating 1.0 you have 4 main projection type to help your Retopology tasks, we call them ***Solver***
 
-![solver_list](https://github.com/user-attachments/assets/6e39038a-38af-4365-aa2f-5a15389e53d4)
+
 
 Now let's take a closer look;
 1. ***Force Project***, this is an original projection type that have been used for polymating 1.0 and below and this is the first of its kind, it forces all vertices to project to the reference surface on the go.
@@ -24,7 +24,11 @@ Now let's take a closer look;
 4. ***Multi-hit*** similar to On-hit, but it uses all the object in a collection as reference, there is no handler to limit the amount of object in the collection so please be careful when using this, as it iterates through all your object in a collection, until multi-threading is implemented there is nothing I can do to fix this performance problem
 
 
-Version 1.0 ![ui_guide1](https://github.com/user-attachments/assets/77cd69cf-9f29-4dd5-8f92-fc3a097ca8e3)
+## UI Introduction
+Now that you have Polymating installed, let's take a look at how Polymating ui looks:
+
+![ui_guide1x](https://github.com/user-attachments/assets/e89bb3a9-5dc4-4107-aac5-24d0db6d2d47)
+
 UI map:
 1. Apply overlay on start - When you press "Start Polymating" (11) it will automatically apply a material that is optimized for retopology and then turn on backface culling
 2. Clamp brush strength - When you press "Start Polymating" (11) it will automatically limit some of your brush strength to 0.5 in order to tone down the sensivity that would result a very jumpy wrapping at higher strength
@@ -41,7 +45,12 @@ UI map:
 13. Apply Overlay - this button lets you apply an optimized material for retopology to your selected object
 14. Remove Overlay- this button will remove all applied material created from Apply Overlay (13) or Apply overlay on start (1)
 15. Overlay visibility - After overlay material is applied you can use this to toggle hide or show your object with overlay material
-16. 
+16. Selected vertex groups - this is where you select which vertex groups for vertex locking (18)
+17. Axis - Multiple toggle button to select which axis you want to lock, if three button is toggled on it will lock the vertex in place
+18. Lock Vertex - the operator button for vertex locking feature, this is a toggle button it will show the state on which the vertex is locked or unlocked
+
+
+After everything is set, this is the default Polymating ui looks on your 3D viewport:
 
 ![ui_guide2](https://github.com/user-attachments/assets/449779d1-d295-4c0d-a7fb-54ada619af06)
 
