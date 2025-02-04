@@ -15,15 +15,12 @@ Let's get started!!!
 
 In Polymating 1.0 you have 4 main projection type to help your Retopology tasks, we call them ***Solver***
 
-| GIF 1 | GIF 2 | GIF 3 |
-|-------|-------|-------|
-| ![Alt Text 1](https://example.com/path/to/gif1.gif) | ![Alt Text 2](https://example.com/path/to/gif2.gif) | ![Alt Text 3](https://example.com/path/to/gif3.gif) |
-
-![git_showcase_on_hit_limit](https://github.com/user-attachments/assets/5667d123-1fff-46b8-acd5-ae8bd4e40430)
-![git_showcase_on_hit](https://github.com/user-attachments/assets/688ccc38-a876-484c-b438-7debe3a154e1)
-![git_showcase_multi_hit](https://github.com/user-attachments/assets/f132a877-993f-4e09-9235-004038d65dfd)
-![git_showcase_force_project](https://github.com/user-attachments/assets/552af735-b75c-4c70-8d23-7c0566f9db39)
-
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/552af735-b75c-4c70-8d23-7c0566f9db39" width="24%" />
+  <img src="https://github.com/user-attachments/assets/5653fec1-aade-461f-989d-fe923dc6d483" width="24%" />
+  <img src="https://github.com/user-attachments/assets/fca3b674-dca7-46b1-b297-a361a28ba85c" width="24%" />
+  <img src="https://github.com/user-attachments/assets/f132a877-993f-4e09-9235-004038d65dfd" width="24%" />
+</p>
 
 Now let's take a closer look;
 1. ***Force Project***, this is an original projection type that have been used for polymating 1.0 and below and this is the first of its kind, it forces all vertices to project to the reference surface on the go.
