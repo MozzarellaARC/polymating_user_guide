@@ -94,7 +94,8 @@ https://github.com/user-attachments/assets/49aa3530-9ab4-4830-a4f4-99a3533d47bc
 
 For the rule of thumb the more knowledge you has over the edge flow the faster you would be using Polymating. There is no amount of tools available will be usefull if you have no concept of edge flow. If you want to know more about edge flow I suggest this PDF on a guide to topology from CG Cookie: https://cgcookie.com/posts/the-art-of-good-topology-blender
 
-If you are still curious about Polymating, here is the footage of me while Polymating 1.0 still in development and doing some bug hunting:
+If you are still curious about Polymating, here is the raw footage of me on the development of polymating pre 1.0:
+https://youtu.be/q_7HoUNW_Js
 
 That's it for now and
 Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
