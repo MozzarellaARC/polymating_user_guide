@@ -79,6 +79,16 @@ For reference on this part it will roughly take around 1 minute to do the wrappi
 ## Step 3 - The "Prepping"
 On this part, you need to make preparation for the detailing because in bigger project or specifically project with symmetrical or asymmetrical shape it is generally best to do it by 1 side and the other side can copy, on this part you will also need to rearange some polygons for the missing shape that not get wrapped properly on previous part like the mouth, here we go:
 
+https://github.com/user-attachments/assets/a6716eca-47f6-4b0c-a349-0d73cc40575c
+
+https://github.com/user-attachments/assets/b26b18d1-a90a-4e68-a7ad-ccffb234eefe
+
+so on this part it takes roughly 2 to 3 minutes of eyeballing game. Overall there is no certain limit to what extend of beauty that you aim to achieve.
+
+
+
+
+
 Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
 - - -
 
