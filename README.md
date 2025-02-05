@@ -81,14 +81,22 @@ On this part, you need to make preparation for the detailing because in bigger p
 
 https://github.com/user-attachments/assets/a6716eca-47f6-4b0c-a349-0d73cc40575c
 
+In here you can see that Vertex Locking is being used to lock the 0 X axis, now you can also use enable symmetry or mirror modifier clipping which is practically the same thing. But this tool is exist so that the Polymating workflow is more intuitive, but it is still in experimental version which you need to disable the locking everytime you changes the amount of vertices inside your mesh:
+
 https://github.com/user-attachments/assets/b26b18d1-a90a-4e68-a7ad-ccffb234eefe
 
-so on this part it takes roughly 2 to 3 minutes of eyeballing game. Overall there is no certain limit to what extend of beauty that you aim to achieve.
+So on this part it takes roughly 2 to 3 minutes of eyeballing game.
 
+## Step 4 - Touchups
+This is the part where you need to know where to stop, because at this point there is no clear limit on the amount of details you can put into the detailing of the topology. 
 
+https://github.com/user-attachments/assets/49aa3530-9ab4-4830-a4f4-99a3533d47bc
 
+For the rule of thumb the more knowledge you has over the edge flow the faster you would be using Polymating. There is no amount of tools available will be usefull if you have no concept of edge flow. If you want to know more about edge flow I suggest this PDF on a guide to topology from CG Cookie: https://cgcookie.com/posts/the-art-of-good-topology-blender
 
+If you are still curious about Polymating, here is the footage of me while Polymating 1.0 still in development and doing some bug hunting:
 
+That's it for now and
 Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
 - - -
 
