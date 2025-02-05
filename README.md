@@ -64,9 +64,20 @@ Now that you've learn the naming of things and where things are placed, let's ge
 ## Step 1 - Bounding boxes
 This is the most crucial moment for the pipeline because when you retopologizing with Polymating you preplaned the the edge flow instead of thinkering it on the run. The benefit of this is that you have more control for the edge flow over the whole mesh because you start with relatively simple shape and put the details later on just like with what you do when doing modeling or sculpting in general, so here is the example of doing the bounding boxing to our friend Johhny Boy:
 
-
 https://github.com/user-attachments/assets/a2ebbcab-b617-4d32-8697-9589fdcb011a
 
+For reference on this part it will roughly take around 2 minutes to create the bounding box, and this video is 5x for github compression. So take it into consideration when you doing this for getting paid, because time is at the essence.
+
+## Step 2 - The "Wrapping"
+This is the heart and soul of polymating. On this part you will wrap the previous bounding box that you have made into our friend Johnny. Basically this is what polymating is made for and this would be the most fun part of Polymating pipeline, so take your time on this part: note here that, the less polygon you have the harder it is to wrapp into your mesh, so you have to take it into consideration and use about 1 level or 2 level of subdivision:
+
+https://github.com/user-attachments/assets/c12a535b-4018-44f5-8f11-8faf74bc7a6f
+
+So basically after you press "Start Polymating" you can go to sculpt mode and do smooth brush over the wack surface area with bad topology and arange it out to a beauty:
+For reference on this part it will roughly take around 1 minute to do the wrapping and the draft wrapping. The video is speed up 2.5x
+
+## Step 3 - The "Prepping"
+On this part, you need to make preparation for the detailing because in bigger project or specifically project with symmetrical or asymmetrical shape it is generally best to do it by 1 side and the other side can copy, on this part you will also need to rearange some polygons for the missing shape that not get wrapped properly on previous part like the mouth, here we go:
 
 Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
 - - -
