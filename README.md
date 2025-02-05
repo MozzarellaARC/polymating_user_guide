@@ -11,6 +11,7 @@ Before we start, I want to explain what Polymating is. It is a Blender retopolog
 As you know, Blender currently has three main modeling modes: Object Mode, Edit Mode, and Sculpt Mode. There is also an abundance of tools artists can use, not to mention the number of other modeling addons available. Polymating integrates with most of these tools because, at the core of the retopology pipeline, lies the projection of vertices and edge flow. This is where Polymating focuses its development.
 
 Let's get started!!!
+Download your blend. Learning material here [Johnny Boy](https://github.com/MozzarellaARC/PolymatingUserGuide/releases/tag/Learning)
 
 ## What's new?
 
