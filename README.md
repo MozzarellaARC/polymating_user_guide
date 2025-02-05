@@ -12,6 +12,7 @@ As you know, Blender currently has three main modeling modes: Object Mode, Edit 
 
 Let's get started!!!
 
+## What's new?
 
 In Polymating 1.0 you have 4 main projection type to help your Retopology tasks, we call them ***Solver***
 
@@ -54,11 +55,17 @@ UI map:
 17. Axis - Multiple toggle button to select which axis you want to lock, if three button is toggled on it will lock the vertex in place
 18. Lock Vertex - the operator button for vertex locking feature, this is a toggle button it will show the state on which the vertex is locked or unlocked
 
-
 After everything is set, this is the default Polymating ui looks on your 3D viewport:
 
 ![ui_guide2](https://github.com/user-attachments/assets/449779d1-d295-4c0d-a7fb-54ada619af06)
 
+Now that you've learn the naming of things and where things are placed, let's get to the first step to the Polymating retopology pipeline:
+
+## Step 1 - Bounding boxes
+This is the most crucial moment for the pipeline because when you retopologizing with Polymating you preplaned the the edge flow instead of thinkering it on the run. The benefit of this is that you have more control for the edge flow over the whole mesh because you start with relatively simple shape and put the details later on just like with what you do when doing modeling or sculpting in general, so here is the example of doing the bounding boxing to our friend Johhny Boy:
+
+
+https://github.com/user-attachments/assets/a2ebbcab-b617-4d32-8697-9589fdcb011a
 
 
 Goodbye ["Johnny"](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204)
