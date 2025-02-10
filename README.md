@@ -1,8 +1,10 @@
-# ***Polymating User Guide for 1.0***
+# ***Polymating User Guide for 1.1***
 ### _A page for user instructions and manuals_
 
-Hello, MozzarellaARC here, we have finally come to the release of version 1.0.
-For this version of Polymating, Johhny Boy will help us guide in version 1.0 [Alaskan Malamute - Johnny Boy](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204) please say hello to Johhny!
+
+
+Hello, MozzarellaARC here, we have finally come to the release of version 1.x.
+For this version of Polymating, Johhny Boy will help us guide in version 1.x [Alaskan Malamute - Johnny Boy](https://www.fab.com/listings/bb6b5598-f803-4b19-931a-b31051dba204) please say hello to Johhny!
 
 ![1 0_Guide_Johnny_256](https://github.com/user-attachments/assets/c3fb3c70-3c2e-4c3a-b97a-d9af572b3bb0)
 
@@ -15,20 +17,18 @@ Download your blend. Learning material here [Johnny Boy](https://github.com/Mozz
 
 ## What's new?
 
-In Polymating 1.0 you have 4 main projection type to help your Retopology tasks, we call them ***Solver***
+In Polymating 1.1 you have 2 main projection type to help your Retopology tasks, we call them ***Solver***
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/552af735-b75c-4c70-8d23-7c0566f9db39" width="24%" />
-  <img src="https://github.com/user-attachments/assets/5653fec1-aade-461f-989d-fe923dc6d483" width="24%" />
-  <img src="https://github.com/user-attachments/assets/fca3b674-dca7-46b1-b297-a361a28ba85c" width="24%" />
-  <img src="https://github.com/user-attachments/assets/f132a877-993f-4e09-9235-004038d65dfd" width="24%" />
+  <img src="https://github.com/user-attachments/assets/552af735-b75c-4c70-8d23-7c0566f9db39" width="44%" />
+  <img src="https://github.com/user-attachments/assets/fca3b674-dca7-46b1-b297-a361a28ba85c" width="44%" />
 </p>
 
 Now let's take a closer look;
-1. ***Force Project***, this is an original projection type that have been used for polymating 1.0 and below and this is the first of its kind, it forces all vertices to project to the reference surface on the go.
-2. ***On-hit Limit*** similar to Force Project, except that it doesn't force all vertices on start, instead it limit constraints only happens when the vertex hits the reference surface
-3. ***On-hit*** this is the bread and butter of Polymating 1.0 there is no actual projection but instead its only behavior is preventing the vertices to penetrates through the reference surface
-4. ***Multi-hit*** similar to On-hit, but it uses all the object in a collection as reference, there is no handler to limit the amount of object in the collection so please be careful when using this, as it iterates through all your object in a collection, until multi-threading is implemented there is nothing I can do to fix this performance problem
+1. ***~Force Project~ Nearest***, this is an original projection type that have been used for polymating 1.0 and below and this is the first of its kind, it forces all vertices to project to the nearest reference surface on the go, very good for quick setup of retopology.
+2. ~***On-hit Limit*** similar to Force Project, except that it doesn't force all vertices on start, instead it limit constraints only happens when the vertex hits the reference surface~
+3. ***~On-hit~ Raycast*** this is the bread and butter of Polymating 1.x it uses rays to project onto the reference mesh, giving it advantages to retopology thin shaped mesh.
+4. ~***Multi-hit*** similar to On-hit, but it uses all the object in a collection as reference, there is no handler to limit the amount of object in the collection so please be careful when using this, as it iterates through all your object in a collection, until multi-threading is implemented there is nothing I can do to fix this performance problem~
 
 
 ## UI Introduction
@@ -42,7 +42,7 @@ UI map:
 3. Color preferences - This is would be the default material color when you applying material either through "Apply overlay on start" mechanism (1) or "Apply Overlay" (13)
 4. Reset Color - This will reset the "Color preferences" (3) at its default value of RGBA 0.800, 0.708, 0.323, 0.777
 5. Experimenta Features - This is a collapsible menu to show or hide Experimental features
-6. Use Raycast - This is solver specific preferences toggle for On-Hit and Multi-hit solver (10) that switch between the default find_nearest into ray_cast blender module, it is targeted to solve performance problem where user need more realtime interaction within edit-mode
+6. ~Use Raycast - This is solver specific preferences toggle for On-Hit and Multi-hit solver (10) that switch between the default find_nearest into ray_cast blender module, it is targeted to solve performance problem where user need more realtime interaction within edit-mode~ (Have been implemented as the default and sole module for Raycast solver previously On-hit/Multi-hit
 7. Developer Extras - This is for me don't touch >.<
 8. Reference - Use this object picker to select which reference you are going to project your vertices
 9. Reference Visibility - After reference (8) is set you can use this to toggle hide or show your reference (8)
@@ -54,7 +54,7 @@ UI map:
 15. Overlay visibility - After overlay material is applied you can use this to toggle hide or show your object with overlay material
 16. Selected vertex groups - this is where you select which vertex groups for vertex locking (18)
 17. Axis - Multiple toggle button to select which axis you want to lock, if three button is toggled on it will lock the vertex in place
-18. Lock Vertex - the operator button for vertex locking feature, this is a toggle button it will show the state on which the vertex is locked or unlocked
+18. ~Lock Vertex - the operator button for vertex locking feature, this is a toggle button it will show the state on which the vertex is locked or unlocked~ (Have been embeded into Start Polymating Button)
 
 After everything is set, this is the default Polymating ui looks on your 3D viewport:
 
