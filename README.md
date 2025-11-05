@@ -1,4 +1,4 @@
-# ***Polymating User Guide for 1.4+***
+# ***Polymating User Guide for 1.4+
 ### _A page for user instructions and manuals_
 
 
@@ -31,6 +31,7 @@ Projection Behavior update:
 
 Performance update:
 - Hidden vertices are partially evaluated to determine whether projection affects them. This means that when working with a mesh containing hidden vertices, those vertices introduce only a partial performance overhead, rather than doing the full calculation. This way you can work on a larger polycount base.
+- The new list interface will allow you to have multiple lock groups running at the same time, but be careful the performance overhead is proportional to the complexity of the project see [Best Practices](#step-5---best-practices) section for more info.
 
 ## Installation and Preferences
 Before we continue, I'm gonna introduce you to the ui of Polymating. The installation of Polymating will be pretty straight forward, after you download Polymating you can go to Edit > Preferences > Install > select the Polymating zip. file you have downloaded > Press the install add-on button > and turn on the check button, now that you've installed Polymating you will be shown the preferences ui like this :
@@ -59,13 +60,16 @@ This Ray Distance will allow you to refine the behaviour of the Raycast, higher 
 13. Info message - this is a message to show the state of Polymating, it roughly tells you what you need to do to operate Polymating
 14. Overlay visibility - After overlay material is applied you can use this to toggle hide or show your object with overlay material
 15. Remove Overlay- this button will remove all applied material created from Apply Overlay (13) or Apply overlay on start (1)
-16. Apply Overlay - this button lets you apply an optimized material for retopology to your selected object
+16. Apply Overlay - this button lets you apply an optimized material for retopology to your selected object, another thing to notice, this tool will turn on the "Backface Culling" option
+![backface_culling](ref/backface_culling.png)
+which some people deemed unecessary.
+
 17. Global lock - this will alow you enable/disable the vertex locking
 18. Axis lock group add - clicking this tool will opens up picker prompt that shows available vertex groups that you can choose, like this image below 
 ![picker](ref/group_picker.png)
 you need to make sure to have a vertex group available that is not already part of the lock groups to open tis prompt.
 19. Axis lock group remove
-20. Axis lock groups lists
+20. Axis lock groups lists - This new list interface will alow you to have multiple lock groups running at the same time, but be careful the performance overhead is proportional to the number of base vertices * (number of vertices that belongs to the lock groups * number of lock groups)
 
 After everything is set, this is the default Polymating ui looks on your 3D viewport:
 
@@ -107,6 +111,31 @@ This is the part where you need to know where to stop, because at this point the
 https://github.com/user-attachments/assets/49aa3530-9ab4-4830-a4f4-99a3533d47bc
 
 For the rule of thumb the more knowledge you has over the edge flow the faster you would be using Polymating. There is no amount of tools available will be usefull if you have no concept of edge flow. If you want to know more about edge flow I suggest this PDF on a guide to topology from CG Cookie: https://cgcookie.com/posts/the-art-of-good-topology-blender
+
+## Step 5 - Best Practices
+As the complexitiy of the model increases Polymating projection system might fail at one point. In that case it is best to split mesh to multiple chunk and then join them later and not using collection reference or multiple lock groups, as their performance is proportional to the complexity of the project.
+
+### Summary Table
+**Overhead analysis are calculated by AI, take it with a grain of salt.**
+| Scenario | Config | Ops/Vertex | Total Ops/Frame | Relative Overhead | Additional Cost |
+|----------|--------|------------|-----------------|-------------------|-----------------|
+| 1 | Single Ref + No Locks | 584 | 5,840,000 | **1.00x** | Baseline |
+| 2 | Single Lock + Single Ref | 643 | 6,430,000 | **1.10x** | +10% |
+| 3 | Collection Ref + No Locks | 2,414 | 24,140,000 | **4.13x** | +313% |
+| 4 | Multiple Locks + Single Ref | 719 | 7,190,000 | **1.23x** | +23% |
+| 5 | Multiple Locks + Collection Ref | 2,549 | 25,485,000 | **4.36x** | +336% |
+
+**Theoretical Frame Rate Impact (baseline = 60 FPS)**
+
+| Scenario | Config | Expected FPS | Performance Drop |
+|----------|--------|--------------:|-----------------:|
+| 1 | Single Ref + No Locks | 60 FPS | 0% |
+| 2 | Single Lock + Single Ref | 55 FPS | -8% |
+| 3 | Collection Ref + No Locks | 15 FPS | -75% |
+| 4 | Multiple Locks + Single Ref | 49 FPS | -18% |
+| 5 | Multiple Locks + Collection Ref | 14 FPS | -77% |
+
+*(Assumptions: V=10,000 vertices, R=50,000 reference faces, L=4 lock groups, G=2 avg groups/vertex, C=5 collection objects), calculation might varies depending on user machine capabilities*
 
 If you are still curious about Polymating, here is the raw footage of me on the development of polymating pre 1.0:
 https://youtu.be/q_7HoUNW_Js
