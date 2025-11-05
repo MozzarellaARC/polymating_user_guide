@@ -17,7 +17,7 @@ Download your blend. Learning material here [Johnny Boy](https://github.com/Mozz
 
 ## What's new?
 
-In Polymating 1.4 the workflow is much more opinionated and users can do projection in a more personal manner. Polymating will no longer be tested on Blender version below 5.0 after this update comes to live although this version works on Blender 4.5 at the time of this writing.
+In Polymating 1.4 the workflow is much less opinionated and users can do projection in a more personal manner. Polymating will no longer be tested on Blender version below 5.0 after this update comes to live although this version works on Blender 4.5 at the time of this writing.
 
 Interface change:
 - Improve the interface for vertex groups locking, it is now able to read multiple lock groups. With greater power comes greater responsibility as multiple group locking will add overhead proportional to both the number of vertices and the number of lock groups each vertex belongs. This might be improved later on.
