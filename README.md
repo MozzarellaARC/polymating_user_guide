@@ -1,4 +1,4 @@
-# ***Polymating User Guide for 1.4+
+# ***Polymating User Guide for 1.4+***
 ### _A page for user instructions and manuals_
 
 
