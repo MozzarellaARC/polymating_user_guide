@@ -27,7 +27,7 @@ Interface change:
 Projection Behavior update:
 - Vertex locking are now more aggresive, as it no longer get bypassed by nearest solver and persist through solver changes.
 - Projection now skips hidden vertices, including vertices that gets hidden with mask modifier, you might want to be careful when excluding the vertices using manual hiding because once the vertices are unhidden the projection will take effect immediately.
-- Projection now respects masks made within the sculpt mode and this masks will persist through object mode and edit mode, this allows for a more unopinionated workflow when working with specific vertices. Though this mask system has a different behavior than what you get when using hidden or vertex locking, as it has locking behaviour on the sculpt mode and in edit mode it does not project.
+- Projection now respects masks made within the sculpt mode and this masks will persist through object mode and edit mode, this allows for a less opinionated workflow when working with specific vertices. Though this mask system has a different behavior than what you get when using hidden or vertex locking, as it has locking behaviour on the sculpt mode and in edit mode it does not project.
 
 Performance update:
 - Hidden vertices are partially evaluated to determine whether projection affects them. This means that when working with a mesh containing hidden vertices, those vertices introduce only a partial performance overhead, rather than doing the full calculation. This way you can work on a larger polycount base.
