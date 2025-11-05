@@ -66,8 +66,11 @@ which some people deemed unecessary.
 
 17. Global lock - this will alow you enable/disable the vertex locking
 18. Axis lock group add - clicking this tool will opens up picker prompt that shows available vertex groups that you can choose, like this image below 
+
 ![picker](ref/group_picker.png)
+
 you need to make sure to have a vertex group available that is not already part of the lock groups to open tis prompt.
+
 19. Axis lock group remove
 20. Axis lock groups lists - This new list interface will alow you to have multiple lock groups running at the same time, but be careful the performance overhead is proportional to the number of base vertices * (number of vertices that belongs to the lock groups * number of lock groups)
 
